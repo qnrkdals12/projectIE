@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_27973000446436680170619f1de18d8e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_27973000446436680170619f1de18d8e" ></div>
+        
+</body>
+<script>    
+    
+            var map_27973000446436680170619f1de18d8e = L.map(
+                "map_27973000446436680170619f1de18d8e",
+                {
+                    center: [37.5648406, 126.977303],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9397126dcf7ee9434cb75a3f3d187a77 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            var marker_197d64e748857ecab757045b6d3a0188 = L.marker(
+                [37.5757574, 127.0372689],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_197d64e748857ecab757045b6d3a0188.bindTooltip(
+                `<div>
+                     <b>용신동 주민센터</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f280550d375e933103543c2ccadd3c6 = L.marker(
+                [37.5760752, 127.0303012],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_6f280550d375e933103543c2ccadd3c6.bindTooltip(
+                `<div>
+                     <b>용두 어린이 영어 도서관</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b31aaa23d1c883775abddc230a08fa28 = L.marker(
+                [37.531101, 126.841222],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_b31aaa23d1c883775abddc230a08fa28.bindTooltip(
+                `<div>
+                     <b>버들어린이공원</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_503c993d5b5411e1649c0150f4de9d12 = L.marker(
+                [37.528231, 126.846009],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_503c993d5b5411e1649c0150f4de9d12.bindTooltip(
+                `<div>
+                     <b>호돌이어린이공원</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50f0e41fcdecedbaf4d619b856a6c285 = L.marker(
+                [37.529554, 126.844986],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_50f0e41fcdecedbaf4d619b856a6c285.bindTooltip(
+                `<div>
+                     <b>곰돌이어린이공원</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_927f52f487953f3a656ff6ebaae7c95d = L.marker(
+                [37.478439, 126.96153],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_927f52f487953f3a656ff6ebaae7c95d.bindTooltip(
+                `<div>
+                     <b>행운치안센터</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2d34bcb2ad2a968fcb0a047d0cae511 = L.marker(
+                [37.483383, 126.95966],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_f2d34bcb2ad2a968fcb0a047d0cae511.bindTooltip(
+                `<div>
+                     <b>행운동 경로당 (구립행운경로당)</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ce47bfe16589e036ee0595db2861ac0 = L.marker(
+                [37.481239, 126.95272],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_1ce47bfe16589e036ee0595db2861ac0.bindTooltip(
+                `<div>
+                     <b>서울대입구역</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_425928e7058616f7461323bd63801b11 = L.marker(
+                [37.5062, 127.0843],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_425928e7058616f7461323bd63801b11.bindTooltip(
+                `<div>
+                     <b>잠실본동 주민센터</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8483e7e85cc9c4723a30cb9c664fa50 = L.marker(
+                [37.5104, 127.0782],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_f8483e7e85cc9c4723a30cb9c664fa50.bindTooltip(
+                `<div>
+                     <b>아시아공원공영주차장</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ed1ccbded4344c95853fdba3299b98a = L.marker(
+                [37.509, 127.0866],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_9ed1ccbded4344c95853fdba3299b98a.bindTooltip(
+                `<div>
+                     <b>새마을시장 노상 공영 주차장</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ea8da20fce13bd29d0d7693d80a3cb = L.marker(
+                [37.504, 127.0891],
+                {}
+            ).addTo(map_27973000446436680170619f1de18d8e);
+        
+    
+            marker_c4ea8da20fce13bd29d0d7693d80a3cb.bindTooltip(
+                `<div>
+                     <b>삼전역</b>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
